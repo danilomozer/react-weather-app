@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import logo from './weather-icon.jpg';
 
 
 class Weather extends Component {
@@ -9,7 +10,7 @@ class Weather extends Component {
          <div className="">
             <div className="mx-auto col-md-6 mt-5 p-1 box">
              <h1 className="text-center text-primary"><strong>Weather App</strong></h1>
-             <img className="img-weather mx-auto d-block rounded-circle"src="https://www.iosicongallery.com/icons/weather-2017-06-19/512.png" alt-text=""></img>
+             <img className="img-weather mx-auto d-block rounded-circle"src={logo} alt-text=""></img>
 
         <table className="table table-striped mt-3">
             <tbody>
